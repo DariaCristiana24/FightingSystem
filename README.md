@@ -9,6 +9,6 @@ The present attacks in this project are: punching, sword, magic projectile, magi
 
 To change between abilities use numbers from 1 to 5 and to attack click. You can also press escape to choose your character again.
 
-## Software architecure
+## Software architecture
 
 Each attack is created with an abstract class and they have a scriptable object attached to them that holds its stats. I am also using scribtable objects for the characters in this game (player and enemies). Additionaly, I am using an event bus.
